@@ -53,3 +53,15 @@
     grid-auto-rows: 60px;
     gap: 20px;
 }
+
+.calculator__button[data-action="ce"] {
+    grid-column: span 2;
+}
+
+.calculator__button[data-action="="] {
+    grid-column: span 2;
+    font-weight: 400;
+    font-size: 30px;
+    color: 000;
+    background-image: linear-gradient(75deg, #293678, #b62a20);
+}

@@ -1,0 +1,12 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculator-page {
+    min-height: 100vh;
+    background-image: linear-gradient(to right, #9ca8e8, #313269);
+}
